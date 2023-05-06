@@ -78,7 +78,6 @@ export default function Home() {
     <div
       style={{
         height: "100vh",
-        backgroundColor: "#202123",
         width: "100%",
         display: "flex",
         justifyContent: "center",
