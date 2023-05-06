@@ -1,9 +1,7 @@
 "use client";
 import { useEffect, useState } from "react";
-import Image from "next/image";
-import styles from "./page.module.css";
-
 import io from "socket.io-client";
+
 import { formatarBRL } from "@/utils/formatarBRL";
 
 export default function Home() {
